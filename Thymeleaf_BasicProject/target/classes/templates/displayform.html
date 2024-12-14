@@ -1,0 +1,31 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<form th:action="@{displayuser}" method="post">
+	<table>
+		<tbody>
+			<tr>
+				<td>	
+					<label>User Name: </label>
+				</td>
+				<td>
+					<input type="text" name="name" >
+				</td>
+			</tr>
+			<tr>
+				<td>	
+					<label>User Email: </label>
+				</td>
+				<td>
+					<input type="email" name="email" >
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<button type="submit">Display User Details</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</form>
+</body>
+</html>
